@@ -1,0 +1,25 @@
+{
+  "name": "birthday-bot",
+  "version": "1.0.0",
+  "description": "Slack bot for posting birthday messages using timetastic API",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "yarn tsc",
+    "start": "yarn build && node ./"
+  },
+  "author": "Dan Young",
+  "license": "ISC",
+  "devDependencies": {
+    "tslint": "^5.11.0",
+    "typescript": "^3.0.1"
+  },
+  "dependencies": {
+    "@slack/client": "^4.4.0",
+    "@types/dotenv": "^4.0.3",
+    "@types/request": "^2.47.1",
+    "dotenv": "^6.0.0",
+    "moment": "^2.22.2",
+    "request": "^2.88.0"
+  }
+}
